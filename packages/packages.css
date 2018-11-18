@@ -1,0 +1,80 @@
+.background {
+    background: url("../images/plans-background.jpg") center/cover;
+    filter: grayscale(40%) blur(5px);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+
+main {
+    padding-top: 3.6rem;
+}
+
+.plan-section {
+    background: rgba(106, 187, 244, 0.8);
+    width: 80%;
+    padding: 0.9rem;
+    margin: 2rem;
+    border: 3px solid #0E4C77;
+    position: relative;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.plan-section__free {
+    background: rgba(180, 221, 249, 0.8);
+    float: right;
+    text-align: right;
+}
+
+.plan-section__premium {
+    background: rgba(14, 76, 119, 0.8);
+}
+
+.plan-section:hover, 
+.plan-section:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 3px solid #F29454;
+}
+
+.plan-section__anchor {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.plan-section__premium h1,
+.plan-section__premium h2 {
+    color: white;
+}
+
+.plan__title {
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.plan__sub-title {
+    color: #696868;
+}
+
+.plan__badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.2rem;
+    font-size: 0.8rem;
+    color: white;
+    background: #ff5454;
+    padding: 0.5rem;
+}
+
+.plan__description {
+    background: white;
+    color: #0E4C77;
+    padding: 1rem;
+    border: 2px solid #0E4C77;
+}
