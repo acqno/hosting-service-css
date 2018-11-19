@@ -152,8 +152,8 @@ body {
  }
 
  .main-footer__link {
-     display: inline-block;
-     margin: 0 1rem;
+     /* display: inline-block; */
+     margin: 1rem 0;
  }
 
  .main-footer__link a {
@@ -164,6 +164,13 @@ body {
  .main-footer__link a:hover, 
  .main-footer__link a:active {
      color: lightgray;
+ }
+
+ @media (min-width: 40rem) {
+     .main-footer__link {
+         display: inline-block;
+         margin: 0 1rem;
+     }
  }
 
 /*
