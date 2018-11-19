@@ -58,8 +58,7 @@ body {
     background: black;
     display: block;
     margin: 0.6rem 0;
-}
-  
+} 
 
 .main-header__brand {
     color: #0E4C77;
@@ -76,7 +75,7 @@ body {
 }
 
 .main-nav {
-    display: inline-block;
+    display: none;
     text-align: right;
     width: calc(100% - 120px);
     vertical-align: middle;
@@ -123,6 +122,16 @@ body {
     color: #F29454;
     background: white;
     border: none;
+}
+
+@media (min-width: 40rem) {
+    .toggle-button {
+        display: none;
+    }
+
+    .main-nav {
+        display: inline-block;
+    }
 }
 
 /*
