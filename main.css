@@ -55,11 +55,6 @@
  * *** PLAN SECTION
  */
 
- .plan__list {
-     width: 100%;
-     text-align: center;
- }
-
 .plan {
     background: #C6E5FB;
     text-align: center;
@@ -107,6 +102,26 @@
     margin: 0.5rem 0;
 }
 
+@media (min-width: 40rem){
+    .plan__list {
+        width: 100%;
+        text-align: center;
+    }
+
+    .plan {
+        display: inline-block;
+        width: 30%;
+        margin: 0.2rem;
+        vertical-align: middle;
+        min-width: 13rem;
+        max-width: 25rem;
+    }
+
+    .plan--highlighted {
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+}
+
  /*
   * *** KEY FEATURES SECTION
   */
@@ -120,6 +135,7 @@
 #key-features > .section-title {
     color: white;
     margin: 2rem;
+    font-size: 1.6rem;
 }
 
 .key-features__list {
@@ -130,7 +146,6 @@
 }
 
 .key-features__item {
-    display: inline-block;
     margin: 0 1.2rem;
 }
 
@@ -149,6 +164,16 @@
     color: white;
     font-weight: bold;
     font-size: 1rem;
+}
+
+@media (min-width: 40rem) {
+    .key-features__item {
+        display: inline-block;
+    }
+
+    #key-features > .section-title {
+        font-size: 2rem;
+    }
 }
 
 .modal {
