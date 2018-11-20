@@ -78,3 +78,10 @@ main {
     padding: 1rem;
     border: 2px solid #0E4C77;
 }
+
+@media (min-width: 40rem) {
+    main {
+      margin: 3rem auto;
+      max-width: 1500px;
+    }
+}
