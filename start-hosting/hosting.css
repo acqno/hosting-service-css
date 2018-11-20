@@ -24,6 +24,13 @@ main {
     width: 100%; 
 }
 
+/* .signup-form input.invalid,
+.signup-form select.invalid
+.signup-form :invalid {
+    background-color: red;
+    background: #faacac;
+} */
+
 /* 
  * FORM SECTION 
  */

@@ -155,12 +155,12 @@ main {
      text-align: center;
  }
 
- .main-footer__link {
-     /* display: inline-block; */
-     margin: 1rem 0;
+.main-footer__link {
+    /* display: inline-block; */
+    margin: 1rem 0;
  }
 
- .main-footer__link a {
+.main-footer__link a {
      color: white;
      text-decoration: none;
  }
