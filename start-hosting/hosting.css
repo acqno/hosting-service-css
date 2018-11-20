@@ -39,6 +39,13 @@ main {
     font: inherit;
 }
 
+.signup-form input:focus, 
+.signup-form select:focus {
+    outline: none;
+    background: #d8f3df;
+    border-color: #1B98EE;
+}
+
 .signup-form button[type="submit"] {
     display: block;
     margin-top: 1rem;
