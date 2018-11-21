@@ -76,7 +76,9 @@ main {
     background: white;
     color: #0E4C77;
     padding: 1rem;
-    border: 2px solid #0E4C77;
+    border: 2px solid #0E4C77; 
+    font-size: 1.2rem;
+    /*font shorthand:  font-style font-variant font-weight font-size/line-height font-family*/
 }
 
 @media (min-width: 40rem) {
