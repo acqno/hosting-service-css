@@ -191,7 +191,11 @@ main {
     list-style: none;
     margin: 10% auto;
     padding: 0;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
   }
   
   .mobile-nav__item {
