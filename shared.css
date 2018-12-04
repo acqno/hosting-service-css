@@ -2,6 +2,7 @@
 
 :root {
     --navyblue: #0E4C77;
+    --highlight-orange: #F29454;
 }
 
 * {
@@ -119,13 +120,13 @@ main {
 
 .main-nav__item--cta a, .mobile-nav__item--cta a {
     color: white;
-    background: #F29454;
+    background: var(--highlight-orange);
     padding: 0.5rem 1rem;
     border-radius: 8px;
 }
 
 .main-nav__item--cta a:hover, .main-nav__item--cta a:active, .mobile-nav__item--cta a:hover, .mobile-nav__item--cta a:active {
-    color: #F29454;
+    color: var(--highlight-orange);
     background: white;
     border: none;
 }
@@ -249,7 +250,7 @@ main {
 
 .button:hover, .button:active {
     background: white;
-    color: --navyblue;
+    color: var(--navyblue);
 }
 
 .button:focus {
