@@ -23,6 +23,10 @@
   animation: flip-customer 1s ease-out forwards;
 }
 
+#customer-2:hover .testimonial__image-container {
+  animation: flip-customer 1s ease-out forwards;
+}
+
 .testimonial__image {
   width: 100%;
   vertical-align: top;
