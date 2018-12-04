@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat');
 
+:root {
+    --navyblue: #0E4C77;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -72,7 +76,7 @@ main {
 }
 
 .main-header__brand {
-    color: #0E4C77;
+    color: var(--navyblue);
     text-decoration: none;
     font-weight: bold;
 }
@@ -99,7 +103,7 @@ main {
 
 .main-nav__item a, .mobile-nav__item a {
     text-decoration: none;
-    color: #0E4C77;
+    color: var(--navyblue);
     font-weight: bold;
     padding: 0.2rem 0;
 }
@@ -232,10 +236,10 @@ main {
  */
 
 .button {
-    background: #0E4C77;
+    background: var(--navyblue);
     color: white;
     font: inherit;
-    border: 1.5px solid #0E4C77;
+    border: 1.5px solid var(--navyblue);
     padding: 0.5rem;
     border-radius: 8px;
     font-weight: bold;
@@ -245,7 +249,7 @@ main {
 
 .button:hover, .button:active {
     background: white;
-    color: #0E4C77;
+    color: --navyblue;
 }
 
 .button:focus {
