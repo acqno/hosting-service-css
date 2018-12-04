@@ -5,6 +5,7 @@ var modalNoButton = document.querySelector(".modal__action--negative");
 var selectPlanButtons = document.querySelectorAll(".button");
 var toggleButton = document.querySelector(".toggle-button");
 var mobileNav = document.querySelector(".mobile-nav");
+let ctaButton = document.querySelector(".main-nav__item--cta");
 
 // this opens modal when one of the selectPlanButtons are clicked
 for (var i = 0; i < selectPlanButtons.length; i++) {
@@ -50,3 +51,17 @@ toggleButton.addEventListener("click", function() {
     backdrop.classList.add("open");
   }, 10);
 });
+
+// ctaButton.addEventListener('animationstart', function(event) {
+//   console.log('Animation start', event);
+// })
+
+// ctaButton.addEventListener('animationend', function(event) {
+//   console.log('Animation ended', event);
+// })
+
+// ctaButton.addEventListener('animationiteration', function(event) {
+//   console.log('Animation iterated', event);
+// })
+
+
