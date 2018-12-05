@@ -50,7 +50,7 @@
 .testimonial__name {
   margin: 0.2rem;
   color: #ff5454;
-  font-size: 2rem; 
+  font-size: 2rem;
 }
 
 .testimonial__subtitle {
@@ -64,8 +64,7 @@
   text-decoration: none;
 }
 
-.testimonial__subtitle a:hover,
-.testimonial__subtitle a:active {
+.testimonial__subtitle a:hover, .testimonial__subtitle a:active {
   color: #7a7a7a;
 }
 
@@ -81,13 +80,11 @@
     align-items: center;
     justify-content: space-around;
   }
-
   .testimonial__image-container {
     display: inline-block;
     vertical-align: middle;
     width: 66%;
   }
-
   .testimonial__info {
     width: 30%;
   }
@@ -103,5 +100,4 @@
   100% {
     transform: rotateY(360deg) skew(20deg);
   }
-
 }

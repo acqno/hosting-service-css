@@ -1,4 +1,4 @@
-// global variables 
+// global variables
 var backdrop = document.querySelector(".backdrop");
 var modal = document.querySelector(".modal");
 var modalNoButton = document.querySelector(".modal__action--negative");
@@ -14,10 +14,10 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
     // backdrop.style.display = "block";
 
     modal.classList.add("open");
-    backdrop.style.display = 'block';
+    backdrop.style.display = "block";
     setTimeout(function() {
-        backdrop.classList.add("open");
-      }, 10);
+      backdrop.classList.add("open");
+    }, 10);
   });
 }
 
@@ -39,7 +39,7 @@ function closeModal() {
   }
   backdrop.classList.remove("open");
   setTimeout(function() {
-    backdrop.style.display = 'none';
+    backdrop.style.display = "none";
   }, 200);
 }
 
@@ -63,5 +63,3 @@ toggleButton.addEventListener("click", function() {
 // ctaButton.addEventListener('animationiteration', function(event) {
 //   console.log('Animation iterated', event);
 // })
-
-

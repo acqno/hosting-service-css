@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Montserrat');
-
 :root {
     --navyblue: #0E4C77;
     --highlight-orange: #F29454;
@@ -186,7 +185,6 @@ main {
         flex-direction: row;
         margin: 0 1rem;
     }
-
     .main-footer__links {
         flex-direction: row;
         align-items: center;
@@ -200,7 +198,6 @@ main {
 
 .mobile-nav {
     transform: translateX(-100%);
-
     position: fixed;
     z-index: 101;
     top: 0;
@@ -259,6 +256,7 @@ main {
 }
 
 /* animation */
+
 @keyframes wiggle {
     0% {
         transform: rotateZ(0);

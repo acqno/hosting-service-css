@@ -20,11 +20,9 @@ main {
     font-weight: bold;
 }
 
-.signup-form label, 
-.signup-form input, 
-.signup-form select {
+.signup-form label, .signup-form input, .signup-form select {
     display: block;
-    width: 100%; 
+    width: 100%;
 }
 
 /* .signup-form input.invalid,
@@ -39,29 +37,29 @@ main {
  */
 
 /* places everything on one line */
+
 /* .signup-form input[type="checkbox"]*/
-.signup-form input[id*="terms"],
-.signup-form input[id*="terms"] + label {
+
+.signup-form input[id*="terms"], .signup-form input[id*="terms"]+label {
     display: inline-block;
     width: auto;
     vertical-align: bottom;
 }
 
-.signup-form input:not([type="checkbox"]), 
-.signup-form select {
+.signup-form input:not([type="checkbox"]), .signup-form select {
     border: 1px solid #ccc;
     padding: 0.2rem 0.5rem;
     font: inherit;
 }
 
-.signup-form input:focus, 
-.signup-form select:focus {
+.signup-form input:focus, .signup-form select:focus {
     outline: none;
     background: #d8f3df;
     border-color: #1B98EE;
 }
 
 /* CHECK BOX STYLE */
+
 .signup-form input[type="checkbox"] {
     border: 1px solid #ccc;
     background: white;
@@ -89,11 +87,9 @@ main {
         grid-row-gap: 1rem;
         grid-column-gap: 0.5rem;
     }
-
     .signup-form [id="title"] {
         grid-column: span 2;
     }
-
     .signup-form__checkbox {
         grid-column: span 2;
     }
